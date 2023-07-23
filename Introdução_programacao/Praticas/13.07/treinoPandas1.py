@@ -1,7 +1,7 @@
 #%%
 import pandas as pd
 #%%
-sorteios = pd.read_csv("data/mega_sorteios.csv", sep=";")
+sorteios = pd.read_csv("data/mega_sorteios.csv", sep=";", index_col="Concurso")
 
 #%%
 sorteios.head(100)
