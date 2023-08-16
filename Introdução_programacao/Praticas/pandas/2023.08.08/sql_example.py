@@ -25,7 +25,7 @@ df_query
 # %%
 import datetime
 
-top5_uf = (df_pedido_estado.sort_values("qtdePedido", ascending=False)
+top5_uf = (df_query.sort_values("qtdePedido", ascending=False)
                            .head(5))
 
 top5_uf['dt_ingestao'] = datetime.datetime.now()
