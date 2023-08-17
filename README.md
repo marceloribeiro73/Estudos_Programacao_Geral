@@ -1,5 +1,5 @@
 # Estudos
-Opa, tudo bem? Meu nome é Marcelo e este é o meu repositorio de estudos, com *Python*, *SQL*, *Terraform* e outras coisas que em algum momento, eu estive estudando. 
+Opa, tudo bem? Meu nome é Marcelo e este é o meu repositório de estudos, com *Python*, *SQL*, *Terraform* e outras coisas que em algum momento, eu estive estudando. 
 
 ## Linguagens ou Ferramentas
 - Python
