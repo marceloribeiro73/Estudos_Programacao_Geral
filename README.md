@@ -11,4 +11,4 @@ Desculpa, estou ainda melhorando essa parte...(Sorry😅)
 
 
 #### Mais coisas
-    Fun fact: Esse readme faz parte do meu processo de estudos
+- Fun fact: Esse readme faz parte do meu processo de estudos
