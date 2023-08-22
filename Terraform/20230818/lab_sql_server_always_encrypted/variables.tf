@@ -15,9 +15,12 @@ variable "azMssqlServerAdminPasswd" {
   sensitive = true
 }
 variable "azTags" {
-  type = map()
+  type = map
   default = {
     env = "lab",
     project = "mssqlAE"
   }
+}
+variable "azHomeIP" {
+  
 }

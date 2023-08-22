@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "azurerm" {
-  
+  features {}
 }
 
 resource "azurerm_mssql_server" "az_mssqlSrv01" {
@@ -26,4 +26,11 @@ resource "azurerm_resource_group" "az_rgLab" {
   name = var.azResourceGroupName
   location = var.azResourceGroupRegion
   tags = var.azTags
+}
+
+resource "azurerm_mssql_firewall_rule" "az_fwMssqlServerRule01" {
+  name = "inboudHomeIP"
+  server_id =  azurerm_mssql_server.az_mssqlSrv01.id
+  start_ip_address = var.azHomeIP
+  end_ip_address = var.azHomeIP
 }

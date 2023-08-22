@@ -1,0 +1,6 @@
+azMssqlServerName = "example01"
+azResourceGroupName = "rg_name_example"
+azResourceGroupRegion = "eastus2"
+azMssqlServerAdminName = "adminmssqlexample"
+azMssqlServerAdminPasswd = "<not a meme password>"
+azHomeIP = "<insert a valid ip>"
