@@ -11,4 +11,4 @@ Terraform/20230825/lab_vms_sql_server/.terraform
 Terraform/20230825/lab_vms_sql_server/terraform.tfstate
 Terraform/20230825/lab_vms_sql_server/.terraform.lock.hcl
 Terraform/20230825/lab_vms_sql_server/terraform.tfstate.backup
-./idea/
+.idea/
