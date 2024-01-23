@@ -1,0 +1,14 @@
+.vscode/
+Terraform/20230818/lab_sql_server_always_encrypted/.terraform
+Terraform/20230818/lab_sql_server_always_encrypted/.terraform.lock.hcl
+Terraform/20230818/lab_sql_server_always_encrypted/.terraform.lock.hcl
+Terraform/20230818/lab_sql_server_always_encrypted/.terraform
+Terraform/20230818/lab_sql_server_always_encrypted/terraform.tfstate
+Terraform/20230818/lab_sql_server_always_encrypted/.terraform.tfstate.lock.info
+Terraform/20230818/lab_sql_server_always_encrypted/terraform.tfstate.backup
+Terraform/20230825/lab_vms_sql_server/variables copy.tfvars
+Terraform/20230825/lab_vms_sql_server/.terraform
+Terraform/20230825/lab_vms_sql_server/terraform.tfstate
+Terraform/20230825/lab_vms_sql_server/.terraform.lock.hcl
+Terraform/20230825/lab_vms_sql_server/terraform.tfstate.backup
+/.idea/
