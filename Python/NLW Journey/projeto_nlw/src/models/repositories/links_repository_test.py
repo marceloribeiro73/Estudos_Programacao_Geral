@@ -14,7 +14,8 @@ def test_insert_link():
     link_infos = {
         "id": link_id,
         "trip_id": trip_id,
-        "link": "http://google.com.br"
+        "link": "http://google.com.br",
+        "title": "Google reviews"
     }
 
     links_repository.insert_link(link_infos=link_infos)
