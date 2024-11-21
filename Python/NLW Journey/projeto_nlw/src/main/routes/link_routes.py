@@ -12,7 +12,7 @@ from src.models.settings.db_connection_handler import db_connection_handler
 
 links_routes_bp = Blueprint("link_routes", __name__)
 
-@links_routes_bp.route("/links/<tripID>", methods=["POST"])
+@links_routes_bp.route("/trips/<tripID>/links", methods=["POST"])
 def create_link(tripID):
     conn = db_connection_handler.get_connection()
     link_repository = LinksRepository(conn)
@@ -22,7 +22,7 @@ def create_link(tripID):
 
     return jsonify(response["body"]), response["status_code"]
 
-@links_routes_bp.route("/links/<tripID>", methods=["GET"])
+@links_routes_bp.route("/trips/<tripID>/links", methods=["GET"])
 def get_links(tripID):
     conn = db_connection_handler.get_connection()
     link_repository = LinksRepository(conn)

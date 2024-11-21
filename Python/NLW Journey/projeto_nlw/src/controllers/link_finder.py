@@ -16,7 +16,7 @@ class LinkFinder:
                     "title": link[3]
                 })
             return {
-                "body": tuple(body), "status_code": 200
+                "body": {"links": tuple(body)}, "status_code": 200
             }
         except Exception as exception:
             return {
